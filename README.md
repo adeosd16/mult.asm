@@ -33,6 +33,7 @@
 
 	@i	
 	M=M+1	//store in RAM[15]
+	
 
 	@LOOP
 	0;JMP //repeat of cycle for mult
