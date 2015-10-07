@@ -41,3 +41,19 @@
 	(END)
 	@END
 	0;JMP // infinite loop to end
+	@END
+	D;JEQ //checks if first num =0
+	@17
+	D=M	//checks if second numb>0 
+	@Loop
+	D;JGT	// if true no sign switch
+	@16
+	M=D
+	@17
+	D=M
+	@0
+	D=A-D	//switches signs of @17
+	@17
+	M=D
+	(Loop) 
+
